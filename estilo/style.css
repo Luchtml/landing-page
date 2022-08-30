@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
@@ -67,7 +67,7 @@
  }
 
  .titulo {
-    font-family: var(--fonte-destaque),
+    font-family: var(--fonte-destaque);
     font-weight: 400;
     font-size: 64px;
     color: #FFF2E7;
