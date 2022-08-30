@@ -1,0 +1,137 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 236, 212);
+}
+
+:root {
+    --fonte-destaque: 'Righteous', cursive;
+    --fonte-padrao: 'Sarala', sans-serif;
+    --fonte-destacada: 'Merienda One', cursive;
+ }
+
+
+ body {
+    font-family: var(--fonte-padrao);
+    font-size: 100%;
+    background-image: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    
+ }
+
+ .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+ }
+
+ .cabecalho-img {
+    height: 72px;
+ }
+
+ .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+ }
+
+ .cabecalho-menu-item {
+    font-weight: 400;
+    font-size: 18px;
+ }
+
+ .conteudo {
+    border-top: 0.4px solid rgb(36, 22, 22);
+    margin-bottom: 48px;
+ }
+
+ .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;   
+ }
+
+ .titulo {
+    font-family: var(--fonte-destaque),
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+ }
+
+ .subtitulo {
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 24px;
+ }
+
+ .botao {
+    background-color: #ffdac1;
+    color: black;
+    width: 180px;
+    height: 60px;
+    border-radius: 25px 25px;
+    border: none;
+    box-shadow: 4px 5px 4px #2f232570;
+    font-size: 24px;
+    font-weight: 400;
+ }
+
+ .botao:hover {
+    background-color: #2F2325;
+    color: #ffdac1;
+ }
+
+ .balle {
+    height: 430px;
+ }
+
+ .conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+ }
+
+ .titulo-2 {
+    border-top: 0.4px solid rgb(255, 238, 206);
+    padding-top: 30px;
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff9f6;
+    margin-bottom: 10px;
+ }
+
+ .item-titulo-2 {
+    font-family: var(--fonte-padrao);
+    font-weight: 300;
+    display: flex;
+    
+ }
+
+ .rodape {
+    padding: 30px;
+    border-top: 0.4px solid rgb(255, 238, 206);
+ }
+
+ .rodape-img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+ }
